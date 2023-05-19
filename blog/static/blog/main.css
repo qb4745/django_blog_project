@@ -88,6 +88,26 @@ a.article-title:hover {
     font-size: 2.5rem;
 }
 
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading,
+.text-secondary {
+    margin-right: 2.5rem;
+    /* Remove the margin-left */
+}
+
 .navbar-right {
     margin-left: auto;
+    margin-right: 10px;
+    /* Add margin-right to align with the right edge */
+}
+
+.profile-media-body  {
+    display: flex;
+    align-items: center;
 }

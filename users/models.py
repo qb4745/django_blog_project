@@ -10,8 +10,8 @@ class Profile(models.Model):
     def __str__(self):
         return f"{self.user.username} Profile"
 
-    def save(self):
-        super().save()  # Run the save method of the parent class
+    def save(self, *args, **kawrgs):
+        super().save(*args, **kawrgs)  # Run the save method of the parent class
 
         img = Image.open(self.image.path)  # Open the image of the current instance
 
